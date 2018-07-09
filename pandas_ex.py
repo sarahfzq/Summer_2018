@@ -276,6 +276,6 @@ employee
 employee_new=employee[employee['name'].str.contains('|'.join(['Henry','Sam']))].copy()
 X = pd.DataFrame(employee_new.values.reshape(-1,4))
 #####When changed to array using value.reshape, the index is lost#################3
-
+######This is the second version ####################
 
 
